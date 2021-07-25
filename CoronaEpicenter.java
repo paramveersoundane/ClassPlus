@@ -111,7 +111,7 @@ public class CoronaEpicenter {
 			set=BFS(adjList, hotspots.get(i), x, set);
 		}
 		scan.close();
-		System.out.println(set);
+		//System.out.println(set);   // Will Print the Epicenters
 		System.out.println(set.size());
 	}
 
